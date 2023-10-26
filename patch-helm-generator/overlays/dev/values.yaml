@@ -1,0 +1,5 @@
+minecraftServer:
+  version: "1.14.0"
+  type: "SPIGOT"
+  rcon:
+    enabled: false

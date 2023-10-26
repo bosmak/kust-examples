@@ -1,0 +1,15 @@
+apiVersion: builtin
+kind: HelmChartInflationGenerator
+metadata:
+  name: minecraft
+
+name: minecraft
+repo: https://itzg.github.io/minecraft-server-charts
+version: 4.11.0
+
+releaseName: minecraft
+
+valuesFile: helm-minecraft-values.yaml
+valuesInline:
+  minecraftServer:
+    eula: true

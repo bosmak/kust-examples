@@ -1,0 +1,15 @@
+$patch: merge
+
+apiVersion: builtin
+kind: HelmChartInflationGenerator
+metadata:
+  name: minecraft
+
+# Optional values that can be here to allow changes on the overlay level.
+#name: minecraft
+#repo: https://itzg.github.io/minecraft-server-charts
+#version: 4.12.0
+#releaseName: dev
+
+# the values file name can be changed here to reflect to a different file, the set one is `helm-<chart-name>-values.yaml`
+valuesFile: values.yaml
